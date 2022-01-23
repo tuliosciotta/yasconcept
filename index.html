@@ -72,7 +72,9 @@
       }
 
       .links .link {
-        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         width: 100%;
         margin: 0 auto 10px;
         color: #fff;
@@ -93,7 +95,7 @@
         margin-bottom: 32px;
       }
 
-      img {
+      .img-logo {
         width: 100%;
         max-width: 500px;
       }
@@ -101,10 +103,19 @@
   </head>
   <body>
     <div class="wrapper">
-      <img src="logo.png" class="rounded" style="margin-top: 32px;margin-bottom: 32px;" />
+      <img src="logo.png" class="img-logo" style="margin-top: 32px;margin-bottom: 32px;" />
       
       <div class="links">
-        <a href="https://api.whatsapp.com/send?phone=5524988379366" class="link">COMPRE AGORA PELO WHATSAPP</a>
+
+
+        <a href="https://api.whatsapp.com/send?phone=5524988379366" class="link">
+          <img src="whatsapp.png" style="width: 24px" />
+          COMPRE AGORA PELO WHATSAPP
+          <img src="whatsapp.png" style="width: 24px" />
+        </a>
+
+
+
         <a href="https://www.instagram.com/_yasconcept/" class="link">Acesse nosso Instagram</a>
         <a href="mailto:tulio.sciotta@gmail.com" class="link">Entre em contato por email</a>
         <a href="https://www.facebook.com/yasconceptstore" class="link">Curta nossa página no Facebook</a>
